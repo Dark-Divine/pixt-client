@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import RootLayoutComponent from "@/components/layouts/rootLayout";
 
 export const metadata: Metadata = {
   title: "Pixel Tuner",
@@ -16,7 +17,9 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        {children}
+        <RootLayoutComponent>
+          {children}
+        </RootLayoutComponent>
       </body>
     </html>
   );
