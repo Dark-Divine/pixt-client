@@ -1,0 +1,25 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://pixt.ir/sitemap.xml
+
+# Prevent duplicate content indexing
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Language-specific directives
+User-agent: Googlebot
+Allow: /en
+Allow: /
+
+# Prevent indexing of language switcher pages
+Disallow: /?lang=*
+Disallow: /en?lang=*
+
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

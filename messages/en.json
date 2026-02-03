@@ -1,0 +1,11 @@
+{
+  "header": {
+    "logo": "Pixel Tuner",
+    "loginButton": "Get Started",
+    "nav": {
+      "home": "Home",
+      "resume": "Resume"
+    }
+  },
+  "homePage": {}
+}
