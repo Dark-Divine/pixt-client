@@ -1,6 +1,7 @@
+import MainHeader from '@/components/layouts/mainLayout/mainHeader';
 import ReactLenis from 'lenis/react';
 import React from 'react'
-import MainHeader from '../headers/mainHeader';
+import MainFooter from './mainFooter';
 
 export default function MainLayoutComponent({
     children,
@@ -12,6 +13,7 @@ export default function MainLayoutComponent({
             <ReactLenis root>
                 <MainHeader />
                 {children}
+                <MainFooter />
             </ReactLenis>
         </div>
     )

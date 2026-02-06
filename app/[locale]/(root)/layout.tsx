@@ -1,4 +1,4 @@
-import MainLayoutComponent from "@/components/layouts/mainLayout";
+import MainLayoutComponent from "@/components/layouts/mainLayout/index.tsx";
 
 export default function MainLayout({
   children,
