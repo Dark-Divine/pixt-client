@@ -4,7 +4,8 @@
     "loginButton": "Get Started",
     "nav": {
       "home": "Home",
-      "resume": "Resume"
+      "resume": "Resume",
+      "products": "Products"
     }
   },
   "homePage": {}

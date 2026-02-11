@@ -4,7 +4,8 @@
     "loginButton": "ورود | ثبت نام",
     "nav": {
       "home": "خانه",
-      "resume": "رزومه"
+      "resume": "رزومه",
+      "products": "محصولات"
     }
   },
   "homePage": {}

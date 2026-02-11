@@ -3,6 +3,8 @@
 import { useTranslations } from "next-intl";
 import HeroSection from "./heroSection";
 import OurServices from "./ourServices";
+import ProductsSection from "./productsSection";
+import { ContactSection } from "./contactSection";
 
 export default function HomeComponent() {
     const t = useTranslations('HomePage');
@@ -12,6 +14,8 @@ export default function HomeComponent() {
             <main className="h-full">
                 <HeroSection />
                 <OurServices />
+                <ProductsSection />
+                <ContactSection />
             </main>
         </div>
     )

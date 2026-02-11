@@ -25,8 +25,8 @@ export default function MainHeader() {
 
     const navigations = [
         { name: t("nav.home"), href: "/", },
-        { name: t("nav.resume"), href: "/resume", },
-        { name: t("nav.resume"), href: "/download", func: () => { } },
+        { name: t("nav.resume"), href: "/resume", func: () => { } },
+        { name: t("nav.products"), href: "/products", },
     ]
 
     return (
@@ -50,7 +50,7 @@ export default function MainHeader() {
                 </div>
                 <div className="flex gap-2 items-center">
                     <button className={clsx("bg-white text-zinc-900  font-medium",
-                        isScrolled ? "h-9 px-3 rounded-xl text-sm" : "h-10 px-4 rounded-2xl"
+                        isScrolled ? "h-9 px-3 rounded-lg text-sm" : "h-10 px-4 rounded-xl"
                     )}>{t("loginButton")}</button>
                 </div>
             </div>
